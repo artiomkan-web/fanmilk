@@ -1,0 +1,161 @@
+img
+{
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+}
+
+.video
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video iframe,
+.video object,
+.video embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+@font-face
+{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Georgia-Italic.woff') format('woff'), url('../fonts/Georgia-Italic.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'CenturyGothic';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/CenturyGothic.woff') format('woff'), url('../fonts/CenturyGothic.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 700;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Bold.woff') format('woff'), url('../fonts/TTInterfaces-Bold.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 200;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-ExtraLight.woff') format('woff'), url('../fonts/TTInterfaces-ExtraLight.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/icons.woff') format('woff'), url('../fonts/icons.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 300;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Light.woff') format('woff'), url('../fonts/TTInterfaces-Light.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Regular.woff') format('woff'), url('../fonts/TTInterfaces-Regular.woff2') format('woff2');
+}
+
+*
+{
+    font-weight: 400;
+    line-height: 100%;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border-spacing: unset;
+    border-collapse: separate;
+    list-style-type: none;
+
+    -webkit-transition: all 200ms;
+         -o-transition: all 200ms;
+            transition: all 200ms;
+    text-decoration: none;
+
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+a,
+input,
+button,
+textarea
+{
+    display: inline-block;
+
+    outline: none;
+}
+
+button
+{
+    cursor: pointer;
+
+    background: none;
+}
+@supports (-webkit-appearance:none)
+{
+}

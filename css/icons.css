@@ -1,0 +1,146 @@
+@font-face
+{
+    font-family: 'icons';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/icons.ttf?aa9m0j') format('truetype');
+    font-display: block;
+}
+
+i
+{
+    font-family: 'icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+
+    text-transform: none;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    speak: never;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i::before
+{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.icon-arrow-down:before
+{
+    content: '\e904';
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.icon-arrow-left:before
+{
+    content: '\e904';
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.icon-arrow-top:before
+{
+    content: '\e904';
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+}
+
+.icon-arrow-right:before
+{
+    content: '\e904';
+}
+
+.icon-success:before
+{
+    content: '\e90c';
+}
+
+.icon-share:before
+{
+    content: '\e90b';
+}
+
+.icon-zoom:before
+{
+    content: '\e90d';
+}
+
+.icon-youtube:before
+{
+    content: '\e90a';
+}
+
+.icon-logo:before
+{
+    content: '\e909';
+}
+
+.icon-arrow-right-2:before
+{
+    content: '\e900';
+}
+
+.icon-cart:before
+{
+    content: '\e901';
+}
+
+.icon-search:before
+{
+    content: '\e902';
+}
+
+.icon-close:before
+{
+    content: '\e903';
+}
+
+.icon-arrow-right:before
+{
+    content: '\e904';
+}
+
+.icon-phone:before
+{
+    content: '\e905';
+}
+
+.icon-fb:before
+{
+    content: '\e906';
+}
+
+.icon-inst:before
+{
+    content: '\e907';
+}
+
+.icon-vk:before
+{
+    content: '\e908';
+    -webkit-transform: scale(.6);
+        -ms-transform: scale(.6);
+            transform: scale(.6);
+}
+@supports (-webkit-appearance:none)
+{
+}
